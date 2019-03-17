@@ -7,8 +7,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App {
+  text-align: left !important;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.MuiPaper-root-21 {
+  height: 100%;
+}
+div {
+  padding-bottom: 10px;
 }
