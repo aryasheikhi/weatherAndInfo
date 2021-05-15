@@ -216,7 +216,7 @@ const Option = props => {
   return (
     <option
       value={props.countryName}
-      onClick={e => props.getSelectedCountry(e.target.value, props.index)}
+      onChange={e => props.getSelectedCountry(e.target.value, props.index)}
     >
       {props.countryName}
     </option>
